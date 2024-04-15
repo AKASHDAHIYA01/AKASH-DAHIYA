@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 24px;
+    /* border: 1px solid rgb(237, 234, 234); */
+    align-items: left;
+}
+
+.navmenu {
+    display: flex;
+    list-style: none;
+    column-gap: 12px;
+    /* border: 1px solid black; */
+    align-items: right;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(83, 138, 228);
+}
+
+a:visited {
+    color: rgb(252, 252, 252);
+}
+
+
+.homepage {
+    display: flex;
+    min-height: 600px;
+    height: 600px;
+    align-items: center;
+}
+
+.Profile {
+    flex-basis: 50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    flex-basis: 50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeimage {
+    display: block;
+    width: 400px;
+    height: auto;
+}
+
+
+.head{
+    background-color: rgb(48, 49, 49);
+}
+.foot{ text-align: center;
+    background-color: rgb(48, 49, 49);
+  margin-top:30% ;
+   
+    color: azure;
+    border: 100px;
+    padding: 10px 150px;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+.skills-wrapper{margin-top: 67px;}
+.skills{display: flex;
+list-style: none;
+gap: 24px;
+justify-content: center;}
+
+.skill{background-color: white;
+color: black;
+margin-top: 60px;
+padding: 16px 16px;
+font-size: 24px;
+opacity: 66;
+font-weight: 600px;}
+.about{text-align: center;}
+
+.info{width: 60%;
+margin: 0 auto;}
